@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26A3BBF57793AFC537D938F7 /* Pods_DianJia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BACDA24486B665F622F31F1F /* Pods_DianJia.framework */; };
 		85040A701C93FE7D00437DCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A6F1C93FE7D00437DCF /* main.m */; };
-		85040A731C93FE7D00437DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A721C93FE7D00437DCF /* AppDelegate.m */; };
-		85040A761C93FE7D00437DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A751C93FE7D00437DCF /* ViewController.m */; };
 		85040A791C93FE7D00437DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85040A771C93FE7D00437DCF /* Main.storyboard */; };
 		85040A7B1C93FE7D00437DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85040A7A1C93FE7D00437DCF /* Assets.xcassets */; };
 		85040A7E1C93FE7D00437DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85040A7C1C93FE7D00437DCF /* LaunchScreen.storyboard */; };
 		85040A891C93FE7D00437DCF /* DianJiaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A881C93FE7D00437DCF /* DianJiaTests.m */; };
 		85040A941C93FE7D00437DCF /* DianJiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A931C93FE7D00437DCF /* DianJiaUITests.m */; };
+		85040AAE1C93FFC700437DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AA81C93FFC700437DCF /* AppDelegate.m */; };
+		85040AB11C93FFC700437DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AAC1C93FFC700437DCF /* ViewController.m */; };
+		85040AB31C94001500437DCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85040AB21C94001500437DCF /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +39,23 @@
 /* Begin PBXFileReference section */
 		85040A6B1C93FE7D00437DCF /* DianJia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianJia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85040A6F1C93FE7D00437DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		85040A711C93FE7D00437DCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85040A721C93FE7D00437DCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85040A741C93FE7D00437DCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85040A751C93FE7D00437DCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85040A781C93FE7D00437DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85040A7A1C93FE7D00437DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85040A7D1C93FE7D00437DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85040A7F1C93FE7D00437DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85040A841C93FE7D00437DCF /* DianJiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianJiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85040A881C93FE7D00437DCF /* DianJiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianJiaTests.m; sourceTree = "<group>"; };
 		85040A8A1C93FE7D00437DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85040A8F1C93FE7D00437DCF /* DianJiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianJiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85040A931C93FE7D00437DCF /* DianJiaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianJiaUITests.m; sourceTree = "<group>"; };
 		85040A951C93FE7D00437DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85040AA71C93FFC700437DCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85040AA81C93FFC700437DCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85040AAB1C93FFC700437DCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85040AAC1C93FFC700437DCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85040AB21C94001500437DCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BACDA24486B665F622F31F1F /* Pods_DianJia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DianJia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.debug.xcconfig"; sourceTree = "<group>"; };
+		D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.release.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26A3BBF57793AFC537D938F7 /* Pods_DianJia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A3D59180E8ED141D2DFDA3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */,
+				D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85040A621C93FE7D00437DCF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +100,8 @@
 				85040A871C93FE7D00437DCF /* DianJiaTests */,
 				85040A921C93FE7D00437DCF /* DianJiaUITests */,
 				85040A6C1C93FE7D00437DCF /* Products */,
+				2A3D59180E8ED141D2DFDA3F /* Pods */,
+				FE5BEDCE5B8976A1EB12523B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +118,13 @@
 		85040A6D1C93FE7D00437DCF /* DianJia */ = {
 			isa = PBXGroup;
 			children = (
-				85040A711C93FE7D00437DCF /* AppDelegate.h */,
-				85040A721C93FE7D00437DCF /* AppDelegate.m */,
-				85040A741C93FE7D00437DCF /* ViewController.h */,
-				85040A751C93FE7D00437DCF /* ViewController.m */,
+				85040AA11C93FFC700437DCF /* Categroy */,
+				85040AA21C93FFC700437DCF /* MVC */,
+				85040AA61C93FFC700437DCF /* Other */,
+				85040AAD1C93FFC700437DCF /* Resource */,
 				85040A771C93FE7D00437DCF /* Main.storyboard */,
 				85040A7A1C93FE7D00437DCF /* Assets.xcassets */,
 				85040A7C1C93FE7D00437DCF /* LaunchScreen.storyboard */,
-				85040A7F1C93FE7D00437DCF /* Info.plist */,
 				85040A6E1C93FE7D00437DCF /* Supporting Files */,
 			);
 			path = DianJia;
@@ -117,6 +133,7 @@
 		85040A6E1C93FE7D00437DCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85040AB21C94001500437DCF /* Info.plist */,
 				85040A6F1C93FE7D00437DCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +157,70 @@
 			path = DianJiaUITests;
 			sourceTree = "<group>";
 		};
+		85040AA11C93FFC700437DCF /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categroy;
+			sourceTree = "<group>";
+		};
+		85040AA21C93FFC700437DCF /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				85040AA31C93FFC700437DCF /* Controller */,
+				85040AA41C93FFC700437DCF /* Model */,
+				85040AA51C93FFC700437DCF /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		85040AA31C93FFC700437DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85040AA41C93FFC700437DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85040AA51C93FFC700437DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85040AA61C93FFC700437DCF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				85040AA71C93FFC700437DCF /* AppDelegate.h */,
+				85040AA81C93FFC700437DCF /* AppDelegate.m */,
+				85040AAB1C93FFC700437DCF /* ViewController.h */,
+				85040AAC1C93FFC700437DCF /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		85040AAD1C93FFC700437DCF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FE5BEDCE5B8976A1EB12523B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BACDA24486B665F622F31F1F /* Pods_DianJia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85040A981C93FE7D00437DCF /* Build configuration list for PBXNativeTarget "DianJia" */;
 			buildPhases = (
+				3646B3A55E7F23B06A0F7E74 /* Check Pods Manifest.lock */,
 				85040A671C93FE7D00437DCF /* Sources */,
 				85040A681C93FE7D00437DCF /* Frameworks */,
 				85040A691C93FE7D00437DCF /* Resources */,
+				22A3C5DBA1DE8CBA17F29C75 /* Embed Pods Frameworks */,
+				00ABCC3B7200AA0C3DE87A92 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +286,13 @@
 		85040A631C93FE7D00437DCF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = olive;
 				TargetAttributes = {
 					85040A6A1C93FE7D00437DCF = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5LQ2A56TF8;
 					};
 					85040A831C93FE7D00437DCF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85040AB31C94001500437DCF /* Info.plist in Resources */,
 				85040A7E1C93FE7D00437DCF /* LaunchScreen.storyboard in Resources */,
 				85040A7B1C93FE7D00437DCF /* Assets.xcassets in Resources */,
 				85040A791C93FE7D00437DCF /* Main.storyboard in Resources */,
@@ -265,13 +352,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00ABCC3B7200AA0C3DE87A92 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DianJia/Pods-DianJia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A3C5DBA1DE8CBA17F29C75 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DianJia/Pods-DianJia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3646B3A55E7F23B06A0F7E74 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85040A671C93FE7D00437DCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85040A761C93FE7D00437DCF /* ViewController.m in Sources */,
-				85040A731C93FE7D00437DCF /* AppDelegate.m in Sources */,
+				85040AB11C93FFC700437DCF /* ViewController.m in Sources */,
+				85040AAE1C93FFC700437DCF /* AppDelegate.m in Sources */,
 				85040A701C93FE7D00437DCF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +546,10 @@
 		};
 		85040A991C93FE7D00437DCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DianJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DianJia;
@@ -422,8 +559,10 @@
 		};
 		85040A9A1C93FE7D00437DCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = DianJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DianJia;
@@ -498,6 +637,7 @@
 				85040A9A1C93FE7D00437DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85040A9B1C93FE7D00437DCF /* Build configuration list for PBXNativeTarget "DianJiaTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +646,7 @@
 				85040A9D1C93FE7D00437DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85040A9E1C93FE7D00437DCF /* Build configuration list for PBXNativeTarget "DianJiaUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +655,7 @@
 				85040AA01C93FE7D00437DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
