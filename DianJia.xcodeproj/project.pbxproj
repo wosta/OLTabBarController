@@ -16,7 +16,11 @@
 		85040A941C93FE7D00437DCF /* DianJiaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040A931C93FE7D00437DCF /* DianJiaUITests.m */; };
 		85040AAE1C93FFC700437DCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AA81C93FFC700437DCF /* AppDelegate.m */; };
 		85040AB11C93FFC700437DCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AAC1C93FFC700437DCF /* ViewController.m */; };
-		85040AB31C94001500437DCF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85040AB21C94001500437DCF /* Info.plist */; };
+		85040AB71C940F4F00437DCF /* CYLTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AB61C940F4F00437DCF /* CYLTabBarControllerConfig.m */; };
+		85040ACD1C94184100437DCF /* DJMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040ACC1C94184100437DCF /* DJMyViewController.m */; };
+		85040AD01C94188400437DCF /* DJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040ACF1C94188400437DCF /* DJMessageViewController.m */; };
+		85040AD31C94189600437DCF /* DJMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AD21C94189600437DCF /* DJMemberViewController.m */; };
+		85040AD61C9418A500437DCF /* DJCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AD51C9418A500437DCF /* DJCartViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,16 @@
 		85040AAB1C93FFC700437DCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		85040AAC1C93FFC700437DCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85040AB21C94001500437DCF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85040AB51C940F4F00437DCF /* CYLTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarControllerConfig.h; sourceTree = "<group>"; };
+		85040AB61C940F4F00437DCF /* CYLTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarControllerConfig.m; sourceTree = "<group>"; };
+		85040ACB1C94184100437DCF /* DJMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMyViewController.h; sourceTree = "<group>"; };
+		85040ACC1C94184100437DCF /* DJMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMyViewController.m; sourceTree = "<group>"; };
+		85040ACE1C94188400437DCF /* DJMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMessageViewController.h; sourceTree = "<group>"; };
+		85040ACF1C94188400437DCF /* DJMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMessageViewController.m; sourceTree = "<group>"; };
+		85040AD11C94189600437DCF /* DJMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMemberViewController.h; sourceTree = "<group>"; };
+		85040AD21C94189600437DCF /* DJMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMemberViewController.m; sourceTree = "<group>"; };
+		85040AD41C9418A500437DCF /* DJCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCartViewController.h; sourceTree = "<group>"; };
+		85040AD51C9418A500437DCF /* DJCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCartViewController.m; sourceTree = "<group>"; };
 		BACDA24486B665F622F31F1F /* Pods_DianJia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DianJia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.debug.xcconfig"; sourceTree = "<group>"; };
 		D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.release.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +132,7 @@
 		85040A6D1C93FE7D00437DCF /* DianJia */ = {
 			isa = PBXGroup;
 			children = (
+				85040AB41C940F3B00437DCF /* Base */,
 				85040AA11C93FFC700437DCF /* Categroy */,
 				85040AA21C93FFC700437DCF /* MVC */,
 				85040AA61C93FFC700437DCF /* Other */,
@@ -167,32 +182,12 @@
 		85040AA21C93FFC700437DCF /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				85040AA31C93FFC700437DCF /* Controller */,
-				85040AA41C93FFC700437DCF /* Model */,
-				85040AA51C93FFC700437DCF /* View */,
+				85040AB81C9417C100437DCF /* Cart(收单) */,
+				85040ABD1C9417C100437DCF /* Member(会员) */,
+				85040AC21C9417C100437DCF /* Message(消息) */,
+				85040AC71C9417C100437DCF /* My(我的) */,
 			);
 			path = MVC;
-			sourceTree = "<group>";
-		};
-		85040AA31C93FFC700437DCF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		85040AA41C93FFC700437DCF /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		85040AA51C93FFC700437DCF /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		85040AA61C93FFC700437DCF /* Other */ = {
@@ -211,6 +206,151 @@
 			children = (
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		85040AB41C940F3B00437DCF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				85040AB51C940F4F00437DCF /* CYLTabBarControllerConfig.h */,
+				85040AB61C940F4F00437DCF /* CYLTabBarControllerConfig.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		85040AB81C9417C100437DCF /* Cart(收单) */ = {
+			isa = PBXGroup;
+			children = (
+				85040AB91C9417C100437DCF /* Controller */,
+				85040ABB1C9417C100437DCF /* Model */,
+				85040ABC1C9417C100437DCF /* View */,
+			);
+			name = "Cart(收单)";
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		85040AB91C9417C100437DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85040AD41C9418A500437DCF /* DJCartViewController.h */,
+				85040AD51C9418A500437DCF /* DJCartViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85040ABB1C9417C100437DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85040ABC1C9417C100437DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85040ABD1C9417C100437DCF /* Member(会员) */ = {
+			isa = PBXGroup;
+			children = (
+				85040ABE1C9417C100437DCF /* Controller */,
+				85040AC01C9417C100437DCF /* Model */,
+				85040AC11C9417C100437DCF /* View */,
+			);
+			name = "Member(会员)";
+			path = Member;
+			sourceTree = "<group>";
+		};
+		85040ABE1C9417C100437DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85040AD11C94189600437DCF /* DJMemberViewController.h */,
+				85040AD21C94189600437DCF /* DJMemberViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85040AC01C9417C100437DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85040AC11C9417C100437DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85040AC21C9417C100437DCF /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				85040AC31C9417C100437DCF /* Controller */,
+				85040AC51C9417C100437DCF /* Model */,
+				85040AC61C9417C100437DCF /* View */,
+			);
+			name = "Message(消息)";
+			path = Message;
+			sourceTree = "<group>";
+		};
+		85040AC31C9417C100437DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85040ACE1C94188400437DCF /* DJMessageViewController.h */,
+				85040ACF1C94188400437DCF /* DJMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85040AC51C9417C100437DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85040AC61C9417C100437DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85040AC71C9417C100437DCF /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				85040AC81C9417C100437DCF /* Controller */,
+				85040AC91C9417C100437DCF /* Model */,
+				85040ACA1C9417C100437DCF /* View */,
+			);
+			name = "My(我的)";
+			path = My;
+			sourceTree = "<group>";
+		};
+		85040AC81C9417C100437DCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85040ACB1C94184100437DCF /* DJMyViewController.h */,
+				85040ACC1C94184100437DCF /* DJMyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		85040AC91C9417C100437DCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85040ACA1C9417C100437DCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		FE5BEDCE5B8976A1EB12523B /* Frameworks */ = {
@@ -329,7 +469,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85040AB31C94001500437DCF /* Info.plist in Resources */,
 				85040A7E1C93FE7D00437DCF /* LaunchScreen.storyboard in Resources */,
 				85040A7B1C93FE7D00437DCF /* Assets.xcassets in Resources */,
 				85040A791C93FE7D00437DCF /* Main.storyboard in Resources */,
@@ -405,9 +544,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85040AD61C9418A500437DCF /* DJCartViewController.m in Sources */,
+				85040AB71C940F4F00437DCF /* CYLTabBarControllerConfig.m in Sources */,
 				85040AB11C93FFC700437DCF /* ViewController.m in Sources */,
 				85040AAE1C93FFC700437DCF /* AppDelegate.m in Sources */,
 				85040A701C93FE7D00437DCF /* main.m in Sources */,
+				85040AD01C94188400437DCF /* DJMessageViewController.m in Sources */,
+				85040AD31C94189600437DCF /* DJMemberViewController.m in Sources */,
+				85040ACD1C94184100437DCF /* DJMyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

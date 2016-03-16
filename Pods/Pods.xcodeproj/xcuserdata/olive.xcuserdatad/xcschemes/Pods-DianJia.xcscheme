@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7C49EFE7413DF1C8717763FF'
+               BlueprintIdentifier = '2526D4E799ACD75EA8F80365'
                BlueprintName = 'Pods-DianJia'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_DianJia.framework'>
