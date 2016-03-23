@@ -21,6 +21,11 @@
 		85040AD01C94188400437DCF /* DJMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040ACF1C94188400437DCF /* DJMessageViewController.m */; };
 		85040AD31C94189600437DCF /* DJMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AD21C94189600437DCF /* DJMemberViewController.m */; };
 		85040AD61C9418A500437DCF /* DJCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85040AD51C9418A500437DCF /* DJCartViewController.m */; };
+		858F2EAC1C998CF3001DD2CA /* DJPublicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F2EAB1C998CF3001DD2CA /* DJPublicViewController.m */; };
+		85EE8B9B1CA28C070076B17D /* DJMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EE8B9A1CA28C070076B17D /* DJMyViewController.xib */; };
+		85EE8B9D1CA28EC40076B17D /* DJMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EE8B9C1CA28EC40076B17D /* DJMessageViewController.xib */; };
+		85EE8B9F1CA28ED40076B17D /* DJMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EE8B9E1CA28ED40076B17D /* DJMemberViewController.xib */; };
+		85EE8BA11CA28EE10076B17D /* DJCartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EE8BA01CA28EE10076B17D /* DJCartViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +49,7 @@
 		85040A6B1C93FE7D00437DCF /* DianJia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DianJia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85040A6F1C93FE7D00437DCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85040A781C93FE7D00437DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		85040A7A1C93FE7D00437DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85040A7A1C93FE7D00437DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		85040A7D1C93FE7D00437DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85040A841C93FE7D00437DCF /* DianJiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DianJiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85040A881C93FE7D00437DCF /* DianJiaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianJiaTests.m; sourceTree = "<group>"; };
@@ -67,6 +72,14 @@
 		85040AD21C94189600437DCF /* DJMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMemberViewController.m; sourceTree = "<group>"; };
 		85040AD41C9418A500437DCF /* DJCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJCartViewController.h; sourceTree = "<group>"; };
 		85040AD51C9418A500437DCF /* DJCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJCartViewController.m; sourceTree = "<group>"; };
+		858F2EA91C998A46001DD2CA /* DianJia-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DianJia-Prefix.pch"; sourceTree = "<group>"; };
+		858F2EAA1C998CF3001DD2CA /* DJPublicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPublicViewController.h; sourceTree = "<group>"; };
+		858F2EAB1C998CF3001DD2CA /* DJPublicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPublicViewController.m; sourceTree = "<group>"; };
+		85EE8B951CA281740076B17D /* DJMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMacro.h; sourceTree = "<group>"; };
+		85EE8B9A1CA28C070076B17D /* DJMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJMyViewController.xib; sourceTree = "<group>"; };
+		85EE8B9C1CA28EC40076B17D /* DJMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJMessageViewController.xib; sourceTree = "<group>"; };
+		85EE8B9E1CA28ED40076B17D /* DJMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJMemberViewController.xib; sourceTree = "<group>"; };
+		85EE8BA01CA28EE10076B17D /* DJCartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJCartViewController.xib; sourceTree = "<group>"; };
 		BACDA24486B665F622F31F1F /* Pods_DianJia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DianJia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.debug.xcconfig"; sourceTree = "<group>"; };
 		D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DianJia.release.xcconfig"; path = "Pods/Target Support Files/Pods-DianJia/Pods-DianJia.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,13 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				85040AB41C940F3B00437DCF /* Base */,
+				85EE8B941CA281080076B17D /* Manager */,
 				85040AA11C93FFC700437DCF /* Categroy */,
 				85040AA21C93FFC700437DCF /* MVC */,
 				85040AA61C93FFC700437DCF /* Other */,
 				85040AAD1C93FFC700437DCF /* Resource */,
-				85040A771C93FE7D00437DCF /* Main.storyboard */,
-				85040A7A1C93FE7D00437DCF /* Assets.xcassets */,
-				85040A7C1C93FE7D00437DCF /* LaunchScreen.storyboard */,
 				85040A6E1C93FE7D00437DCF /* Supporting Files */,
 			);
 			path = DianJia;
@@ -150,6 +161,7 @@
 			children = (
 				85040AB21C94001500437DCF /* Info.plist */,
 				85040A6F1C93FE7D00437DCF /* main.m */,
+				858F2EA91C998A46001DD2CA /* DianJia-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,6 +209,9 @@
 				85040AA81C93FFC700437DCF /* AppDelegate.m */,
 				85040AAB1C93FFC700437DCF /* ViewController.h */,
 				85040AAC1C93FFC700437DCF /* ViewController.m */,
+				85040A771C93FE7D00437DCF /* Main.storyboard */,
+				85040A7A1C93FE7D00437DCF /* Assets.xcassets */,
+				85040A7C1C93FE7D00437DCF /* LaunchScreen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -213,6 +228,8 @@
 			children = (
 				85040AB51C940F4F00437DCF /* CYLTabBarControllerConfig.h */,
 				85040AB61C940F4F00437DCF /* CYLTabBarControllerConfig.m */,
+				858F2EAA1C998CF3001DD2CA /* DJPublicViewController.h */,
+				858F2EAB1C998CF3001DD2CA /* DJPublicViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -233,6 +250,7 @@
 			children = (
 				85040AD41C9418A500437DCF /* DJCartViewController.h */,
 				85040AD51C9418A500437DCF /* DJCartViewController.m */,
+				85EE8BA01CA28EE10076B17D /* DJCartViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -267,6 +285,7 @@
 			children = (
 				85040AD11C94189600437DCF /* DJMemberViewController.h */,
 				85040AD21C94189600437DCF /* DJMemberViewController.m */,
+				85EE8B9E1CA28ED40076B17D /* DJMemberViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +320,7 @@
 			children = (
 				85040ACE1C94188400437DCF /* DJMessageViewController.h */,
 				85040ACF1C94188400437DCF /* DJMessageViewController.m */,
+				85EE8B9C1CA28EC40076B17D /* DJMessageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -335,6 +355,7 @@
 			children = (
 				85040ACB1C94184100437DCF /* DJMyViewController.h */,
 				85040ACC1C94184100437DCF /* DJMyViewController.m */,
+				85EE8B9A1CA28C070076B17D /* DJMyViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -351,6 +372,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		85EE8B941CA281080076B17D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				85EE8B951CA281740076B17D /* DJMacro.h */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		FE5BEDCE5B8976A1EB12523B /* Frameworks */ = {
@@ -469,8 +498,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85EE8B9D1CA28EC40076B17D /* DJMessageViewController.xib in Resources */,
 				85040A7E1C93FE7D00437DCF /* LaunchScreen.storyboard in Resources */,
 				85040A7B1C93FE7D00437DCF /* Assets.xcassets in Resources */,
+				85EE8B9B1CA28C070076B17D /* DJMyViewController.xib in Resources */,
+				85EE8B9F1CA28ED40076B17D /* DJMemberViewController.xib in Resources */,
+				85EE8BA11CA28EE10076B17D /* DJCartViewController.xib in Resources */,
 				85040A791C93FE7D00437DCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +582,7 @@
 				85040AB11C93FFC700437DCF /* ViewController.m in Sources */,
 				85040AAE1C93FFC700437DCF /* AppDelegate.m in Sources */,
 				85040A701C93FE7D00437DCF /* main.m in Sources */,
+				858F2EAC1C998CF3001DD2CA /* DJPublicViewController.m in Sources */,
 				85040AD01C94188400437DCF /* DJMessageViewController.m in Sources */,
 				85040AD31C94189600437DCF /* DJMemberViewController.m in Sources */,
 				85040ACD1C94184100437DCF /* DJMyViewController.m in Sources */,
@@ -593,6 +627,7 @@
 				85040A781C93FE7D00437DCF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		85040A7C1C93FE7D00437DCF /* LaunchScreen.storyboard */ = {
@@ -601,6 +636,7 @@
 				85040A7D1C93FE7D00437DCF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -693,11 +729,14 @@
 			baseConfigurationReference = C81086318402EDA45F871738 /* Pods-DianJia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "DianJia/DianJia-Prefix.pch";
 				INFOPLIST_FILE = DianJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DianJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -706,11 +745,14 @@
 			baseConfigurationReference = D617B338D5D1DDFCFE03512C /* Pods-DianJia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "DianJia/DianJia-Prefix.pch";
 				INFOPLIST_FILE = DianJia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mugua.DianJia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
