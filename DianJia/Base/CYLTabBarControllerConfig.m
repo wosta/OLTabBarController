@@ -85,24 +85,24 @@
 - (void)setUpTabBarItemsAttributesForController:(CYLTabBarController *)tabBarController {
     
     NSDictionary *dict1 = @{
-                            CYLTabBarItemTitle : @"我的",
-                            CYLTabBarItemImage : @"my-grey",
-                            CYLTabBarItemSelectedImage : @"my-red",
+                            CYLTabBarItemTitle : @"首页",
+                            CYLTabBarItemImage : @"optimize_homePage",
+                            CYLTabBarItemSelectedImage : @"optimize_homePageSelected",
                             };
     NSDictionary *dict2 = @{
                             CYLTabBarItemTitle : @"消息",
-                            CYLTabBarItemImage : @"message-grey",
-                            CYLTabBarItemSelectedImage : @"message-red",
+                            CYLTabBarItemImage : @"optimize_message",
+                            CYLTabBarItemSelectedImage : @"optimize_messageSelected",
                             };
     NSDictionary *dict3 = @{
                             CYLTabBarItemTitle : @"会员",
-                            CYLTabBarItemImage : @"personal-grey",
-                            CYLTabBarItemSelectedImage : @"personal-red",
+                            CYLTabBarItemImage : @"optimize_memeber",
+                            CYLTabBarItemSelectedImage : @"optimize_memeberSelected",
                             };
     NSDictionary *dict4 = @{
-                            CYLTabBarItemTitle : @"收单",
-                            CYLTabBarItemImage : @"car-grey",
-                            CYLTabBarItemSelectedImage : @"car-red"
+                            CYLTabBarItemTitle : @"我的",
+                            CYLTabBarItemImage : @"optimize_me",
+                            CYLTabBarItemSelectedImage : @"optimize_meSelected"
                             };
     NSArray *tabBarItemsAttributes = @[
                                        dict1,
@@ -129,7 +129,7 @@
     // set the text color for selected state
     // 选中状态下的文字属性
     NSMutableDictionary *selectedAttrs = [NSMutableDictionary dictionary];
-    selectedAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
+    selectedAttrs[NSForegroundColorAttributeName] = DJRGBCOLOR(250, 26, 53);
     
     // set the text Attributes
     // 设置文字属性

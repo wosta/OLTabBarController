@@ -2,7 +2,7 @@
 //  DJCartViewController.m
 //  DianJia
 //
-//  Created by 魏旺 on 16/3/12.
+//  Created by 橡树 on 16/6/12.
 //  Copyright © 2016年 olive. All rights reserved.
 //
 
@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {

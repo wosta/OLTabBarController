@@ -2,7 +2,7 @@
 //  DJPublicViewController.m
 //  Dian+
 //
-//  Created by 魏旺 on 16/3/12.
+//  Created by 橡树 on 16/6/12.
 //  Copyright © 2016年 olive. All rights reserved.
 //
 
@@ -100,19 +100,19 @@
         }
     }
     
-    _headBGView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH                                                           , kTopBarHeight+_statusFrameHeight)];
+    _headBGView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, DJSCREEN_WIDTH                                                           , kTopBarHeight+_statusFrameHeight)];
     [_headBGView setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:_headBGView];
-    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, _statusFrameHeight, SCREEN_WIDTH, kTopBarHeight)];
+    _headView = [[UIView alloc] initWithFrame:CGRectMake(0, _statusFrameHeight, DJSCREEN_WIDTH, kTopBarHeight)];
     [_headBGView addSubview:_headView];
     
-    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, (_headView.bounds.size.height - 30)/2.0, SCREEN_WIDTH - 50*2, 30)];
+    _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(50, (_headView.bounds.size.height - 30)/2.0, DJSCREEN_WIDTH - 50*2, 30)];
     [_titleLabel setFont:[UIFont fontWithName:@"FZLanTingHeiEL-SC" size:DJ_F18]];
     [_titleLabel setTextColor:DJ_C6];
     [_titleLabel setTextAlignment:NSTextAlignmentCenter];
     [_headView addSubview:_titleLabel];
     
-    _lineV =  [[UIView alloc] initWithFrame:CGRectMake(0, _headView.frame.size.height - 1, SCREEN_WIDTH, 1)];
+    _lineV =  [[UIView alloc] initWithFrame:CGRectMake(0, _headView.frame.size.height - 1, DJSCREEN_WIDTH, 1)];
     [_lineV setBackgroundColor:[UIColor groupTableViewBackgroundColor]];
     [_headView addSubview:_lineV];
 }

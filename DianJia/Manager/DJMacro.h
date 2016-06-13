@@ -2,7 +2,7 @@
 //  DJMacro.h
 //  DianJia
 //
-//  Created by 魏旺 on 16/3/23.
+//  Created by 橡树 on 16/6/12.
 //  Copyright © 2016年 olive. All rights reserved.
 //
 
@@ -22,25 +22,25 @@
 #define kChineseKeyboardHeight  (252.f)
 
 //按设备宽度做适配
-#define SCALE_WIDTH(x)          (([UIScreen mainScreen].bounds.size.width/320.0)*(x))
+#define DJSCALE_WIDTH(x)          (([UIScreen mainScreen].bounds.size.width/320.0)*(x))
 
-#define SCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
-#define SCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
+#define DJSCREEN_WIDTH            [UIScreen mainScreen].bounds.size.width
+#define DJSCREEN_HEIGHT           [UIScreen mainScreen].bounds.size.height
 
 // View 坐标(x,y)和宽高(width,height)
-#define X(v)                    (v).frame.origin.x
-#define Y(v)                    (v).frame.origin.y
-#define WIDTH(v)                (v).frame.size.width
-#define HEIGHT(v)               (v).frame.size.height
+#define DJX(v)                    (v).frame.origin.x
+#define DJY(v)                    (v).frame.origin.y
+#define DJWIDTH(v)                (v).frame.size.width
+#define DJHEIGHT(v)               (v).frame.size.height
 
-#define MinX(v)                 CGRectGetMinX((v).frame)
-#define MinY(v)                 CGRectGetMinY((v).frame)
+#define DJMinX(v)                 CGRectGetMinX((v).frame)
+#define DJMinY(v)                 CGRectGetMinY((v).frame)
 
-#define MidX(v)                 CGRectGetMidX((v).frame)
-#define MidY(v)                 CGRectGetMidY((v).frame)
+#define DJMidX(v)                 CGRectGetMidX((v).frame)
+#define DJMidY(v)                 CGRectGetMidY((v).frame)
 
-#define MaxX(v)                 CGRectGetMaxX((v).frame)
-#define MaxY(v)                 CGRectGetMaxY((v).frame)
+#define DJMaxX(v)                 CGRectGetMaxX((v).frame)
+#define DJMaxY(v)                 CGRectGetMaxY((v).frame)
 
 
 //-----------------------颜色尺寸------------------------
@@ -56,19 +56,19 @@
 #define DJFont(_size_)          [UIFont fontWithName:@"FZLanTingHeiEL-SC" size:_size_]
 
 #pragma mark -  颜色(RGB)
-#define RGBCOLOR(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
-#define RGBACOLOR(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define DJRGBCOLOR(r, g, b)       [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
+#define DJRGBACOLOR(r, g, b, a)   [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
-#define DJ_C0                   RGBCOLOR(255, 255, 255)
-#define DJ_C1                   RGBCOLOR(240, 242, 243)
-#define DJ_C2                   RGBCOLOR(204, 214, 221)
-#define DJ_C3                   RGBCOLOR(179, 179, 179)
-#define DJ_C4                   RGBCOLOR(160, 173, 184)
-#define DJ_C5                   RGBCOLOR(136, 153, 166)
-#define DJ_C6                   RGBCOLOR(51, 51, 51)
-#define DJ_C7                   RGBCOLOR(212, 212, 212)
-#define DJ_C8                   RGBCOLOR(86, 96, 104)
-#define DJ_BASE_COLOR           RGBCOLOR(242, 242, 242)
+#define DJ_C0                   DJRGBCOLOR(255, 255, 255)
+#define DJ_C1                   DJRGBCOLOR(240, 242, 243)
+#define DJ_C2                   DJRGBCOLOR(204, 214, 221)
+#define DJ_C3                   DJRGBCOLOR(179, 179, 179)
+#define DJ_C4                   DJRGBCOLOR(160, 173, 184)
+#define DJ_C5                   DJRGBCOLOR(136, 153, 166)
+#define DJ_C6                   DJRGBCOLOR(51, 51, 51)
+#define DJ_C7                   DJRGBCOLOR(212, 212, 212)
+#define DJ_C8                   DJRGBCOLOR(86, 96, 104)
+#define DJ_BASE_COLOR           DJRGBCOLOR(242, 242, 242)
 
 
 //---------------------设备-------------------------
